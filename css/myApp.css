@@ -5,6 +5,9 @@ body{
   margin: 0;
   padding: 0;
 }
+.row{
+  margin: 0;
+}
 #chatPage{
   width: 30%;
 }
@@ -20,7 +23,7 @@ body{
 #userName{
   margin-top: 20em;
   margin-left: 7vw;
-  font-size: 1.6vw;
+  font-size: 1.3vw;
 }
 #user1Pic, #user2Pic, #user3Pic, #group1Pic, #group2Pic{
   float: left;
@@ -31,6 +34,8 @@ body{
 
 #backbutton{
   float: left;
+  font-size:24px;
+  margin-top: 1%;
 }
 
 #profilePage{
@@ -76,8 +81,8 @@ hr.style1{
   margin-right: 0px;
 }
 #picture{
-  height: 35%;
-  width: 35%;
+  height: 40%;
+  width: 40%;
 }
 
 .padding-0{

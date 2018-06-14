@@ -8,40 +8,51 @@ body{
 .row{
   margin: 0;
 }
+
 #chatPage{
   width: 30%;
 }
 #profilePic{
   float: left;
-  height: 10%;
-  width: 10%;
-  margin: 10px 10px 10px 20px;
+  height: 3vmax;
+  width: 3vmax;
+  margin: 1vmax 10px 10px 20px;
 }
 #profileName{
-  margin-top: 20px;
+  margin-top: 1.5vmax;
+  font-size: 1.8vmax;
 }
 #userName{
-  margin-top: 20em;
-  margin-left: 7vw;
-  font-size: 1.3vw;
+  margin-left: 8vw;
+  vertical-align: top;
+  font-size: 1.5vw;
+  margin-top: 1vmax;
 }
 #user1Pic, #user2Pic, #user3Pic, #group1Pic, #group2Pic{
   float: left;
   height: 9%;
   width: 9%;
-  margin: 10px 0px 12px 35px;
+  margin: 1vmax 0px 12px 35px;
 }
 
 #backbutton{
   float: left;
   font-size:24px;
   margin-top: 1%;
+  padding-left: 1%;
 }
 
 #profilePage{
   position: relative;
   font-size:24px;
   margin-left:30px;
+  margin: 0px;
+}
+
+#profilePage p{
+  margin-left:27%;
+  position:absolute;
+  font-size: 2vw;
 }
 
 #chatWindow{
@@ -53,8 +64,9 @@ body{
 hr.style1{
 	border-top: 1px solid #eeeeee;
   margin-bottom: 0px;
-  margin-right: 20px;
-  width: 80%;
+  margin-right: 0px;
+  padding-right: 0px;
+  width: 90%;
 }
 
 .verticalbar {
@@ -71,9 +83,7 @@ hr.style1{
   width: 4.8%;
   margin: 10px 10px 10px 20px;
 }
-#userName{
-  margin-top: 20px;
-}
+
 #topbar{
   background:#eeeeee;
   width:100%;
@@ -81,8 +91,14 @@ hr.style1{
   margin-right: 0px;
 }
 #picture{
-  height: 40%;
-  width: 40%;
+  height: 14vmax;
+  width: 14vmax;
+  margin-left: 25%;
+  margin-top: 0px;
+}
+
+#status{
+    padding: 0px;
 }
 
 .padding-0{

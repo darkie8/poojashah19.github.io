@@ -22,7 +22,7 @@
 		        </div>
 		        <div class="row" id="chatslist">
 									<div class="row">
-										<h3 class="col-12" style="margin-left:35px;">Chats</h3>
+										<h3 class="col-12" style="margin-left:35px; font-size:2vw;">Chats</h3>
 									</div>
 				          <div class="row">
 				            <img id="user1Pic" class="img-circle" src="image/Desert.jpg">
@@ -53,12 +53,23 @@
 
       <div id="profilePage" class="col-4 padding-0" style="display:none;">
 					<div class="row">
-						<i id="backbutton" class="fa fa-angle-left col-1"></i>
-						<h4 class="col-11" style="float:left;">Profile and Status</h4>
+						<i id="backbutton" class="fa fa-angle-left col-1" onclick="backToChatPage()"></i>
+						<h4 class="col-11" style="float:left; font-size:1.6vw;">Profile and Status</h4>
 						<br/>
 						<br/>
-						<br/>
-						<img id="picture" class="img-circle col-12" src="image/Desert.jpg" style="align-self:center;">
+						<div class="row">
+								<img id="picture" class="img-circle" src="image/Desert.jpg">
+								<p onclick="">Change Profile</p><br/>
+						</div>
+					</div>
+					<br/>
+					<br/>
+					<div id="status" class="row col-12">
+							<div class="col-12" style="background:#eeeeee; height: 4vh;">
+									<span style="font-size:1.5vw; padding-left:2%;">About and phone number</span>
+							</div>
+							<h5 style="padding-left:4%">Unmistakably passion, beauty and freedom</h5>
+							<h5 style="padding-left:4%">+91 9727202133</h5>
 					</div>
       </div>
 

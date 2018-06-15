@@ -8,7 +8,6 @@ body{
 .row{
   margin: 0;
 }
-
 #chatPage{
   width: 30%;
 }
@@ -23,10 +22,11 @@ body{
   font-size: 1.8vmax;
 }
 #userName{
-  margin-left: 8vw;
+  margin-left: 2vw;
   vertical-align: top;
   font-size: 1.5vw;
   margin-top: 1vmax;
+  margin-bottom: 0px;
 }
 #user1Pic, #user2Pic, #user3Pic, #group1Pic, #group2Pic{
   float: left;
@@ -71,8 +71,8 @@ hr.style1{
 
 .verticalbar {
     border-left: 1px solid green;
-    height: 100%;
-    margin-left: 0px;
+    height: 120%;
+    margin-left: 20vmax;
     top: 0;
     position: absolute;
 }
@@ -103,6 +103,16 @@ hr.style1{
 
 .padding-0{
     padding-right:0;
+}
+
+.message{
+  margin-left: 2vw;
+  float: left;
+}
+
+.message-time{
+  float: right;
+  margin-top: 1vmax;
 }
 
 @media only screen and (min-width: 768px) {

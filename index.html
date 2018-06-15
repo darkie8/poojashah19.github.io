@@ -14,73 +14,82 @@
 </head>
 <body>
   <div class="container-full">
-		<div class="row">
+		<div class="row-full">
       <div id="chatPage" class="col-lg-4 padding-0" style="display:inline-block;">
-		        <div class="row">
-				          <img id="profilePic" class="img-circle col-3" src="image/Desert.jpg" onclick="changeProfile()">
-				          <h4 id="profileName" class="col-9">Pooja Shah</h4>
-		        </div>
-		        <div class="row" id="chatslist">
-									<div class="row">
-										<h3 class="col-12" style="margin-left:35px; font-size:2vw;">Chats</h3>
-									</div>
-				          <div class="row">
-				            <img id="user1Pic" class="img-circle" src="image/Desert.jpg">
-				            <h4 id="userName">Manan Shah</h4>
-										<hr class="style1">
-				          </div>
-				          <div class="row">
-				            <img id="group1Pic" class="img-circle" src="image/Desert.jpg">
-				            <h4 id="userName">Amigos :)</h4>
-										<hr class="style1">
-				          </div>
-				          <div class="row">
-				            <img id="user2Pic" class="img-circle" src="image/Desert.jpg">
-				            <h4 id="userName">Pramod Mali</h4>
-										<hr class="style1">
-				          </div>
-				          <div class="row">
-				            <img id="user3Pic" class="img-circle" src="image/Desert.jpg">
-				            <h4 id="userName">Astha Shah</h4>
-										<hr class="style1">
-				          </div>
-				          <div class="row">
-				            <img id="group2Pic" class="img-circle" src="image/Desert.jpg">
-				            <h4 id="userName">IT I-batch</h4>
-				          </div>
-		        </div>
+			        <div class="row">
+					          <img id="profilePic" class="img-circle col-3" src="image/Desert.jpg" onclick="changeProfile()">
+					          <h4 id="profileName" class="col-9">Pooja Shah</h4>
+			        </div>
+			        <div class="row" id="chatslist">
+										<div class="row">
+											<h3 class="col-12" style="margin-left:35px; font-size:2vw;">Chats</h3>
+										</div>
+					          <div class="row" onclick="">
+					            <img id="user1Pic" class="img-circle" src="image/Desert.jpg">
+					            <h4 id="userName" style="display:inline-block">Manan Shah</h4>
+											<p class="card-text message-time"><small class="text-muted">2.52</small></p><br/>
+											<p class="card-text message"><small class="text-muted">Hello</small></p>
+											<hr class="style1">
+					          </div>
+					          <div class="row">
+					            <img id="group1Pic" class="img-circle" src="image/Desert.jpg">
+					            <h4 id="userName" style="display:inline-block">Amigos :)</h4>
+											<p class="card-text message-time"><small class="text-muted">2.52</small></p><br/>
+											<p class="card-text message"><small class="text-muted">Hello</small></p>
+											<hr class="style1">
+					          </div>
+					          <div class="row">
+					            <img id="user2Pic" class="img-circle" src="image/Desert.jpg">
+					            <h4 id="userName" style="display:inline-block">Pramod Mali</h4>
+											<p class="card-text message-time"><small class="text-muted">2.52</small></p><br/>
+											<p class="card-text message"><small class="text-muted">Hello</small></p>
+											<hr class="style1">
+					          </div>
+					          <div class="row">
+					            <img id="user3Pic" class="img-circle" src="image/Desert.jpg">
+					            <h4 id="userName" style="display:inline-block">Astha Shah</h4>
+											<p class="card-text message-time"><small class="text-muted">2.52</small></p><br/>
+											<p class="card-text message"><small class="text-muted">Hello</small></p>
+											<hr class="style1">
+					          </div>
+					          <div class="row">
+					            <img id="group2Pic" class="img-circle" src="image/Desert.jpg">
+					            <h4 id="userName" style="display:inline-block">IT I-batch</h4>
+											<p class="card-text message-time"><small class="text-muted">2.52</small></p><br/>
+											<p class="card-text message"><small class="text-muted">Hello</small></p>
+			        </div>
       </div>
 
       <div id="profilePage" class="col-4 padding-0" style="display:none;">
-					<div class="row">
-						<i id="backbutton" class="fa fa-angle-left col-1" onclick="backToChatPage()"></i>
-						<h4 class="col-11" style="float:left; font-size:1.6vw;">Profile and Status</h4>
-						<br/>
-						<br/>
-						<div class="row">
-								<img id="picture" class="img-circle" src="image/Desert.jpg">
-								<p onclick="">Change Profile</p><br/>
-						</div>
-					</div>
-					<br/>
-					<br/>
-					<div id="status" class="row col-12">
-							<div class="col-12" style="background:#eeeeee; height: 4vh;">
-									<span style="font-size:1.5vw; padding-left:2%;">About and phone number</span>
+							<div class="row">
+								<i id="backbutton" class="fa fa-angle-left col-1" onclick="backToChatPage()"></i>
+								<h4 class="col-11" style="float:left; font-size:1.6vw;">Profile and Status</h4>
+								<br/>
+								<br/>
+								<div class="row">
+										<img id="picture" class="img-circle" src="image/Desert.jpg">
+										<p onclick="">Change Profile</p><br/>
+								</div>
 							</div>
-							<h5 style="padding-left:4%">Unmistakably passion, beauty and freedom</h5>
-							<h5 style="padding-left:4%">+91 9727202133</h5>
-					</div>
+							<br/>
+							<br/>
+							<div id="status" class="row col-12">
+									<div class="col-12" style="background:#eeeeee;">
+											<span style="font-size:1.5vw; padding-left:2%; ">About and phone number</span>
+									</div>
+									<h5 style="padding-left:4%">Unmistakably passion, beauty and freedom</h5>
+									<h5 style="padding-left:4%">+91 9727202133</h5>
+							</div>
       </div>
 
       <div id="chatWindow" class="col-8 padding-0" style="display:inline-block;">
-					<div class="row">
-								<div class="verticalbar"></div>
-					</div>
-					<div id="topbar" class="row">
-								<img id="userPic" class="img-circle col-3" src="image/Desert.jpg">
-								<h4 id="userName" class="col-9">Pooja Shah</h4>
-					</div>
+							<div class="row">
+										<div class="col-12 verticalbar"></div>
+							</div>
+							<div id="topbar" class="row">
+										<img id="userPic" class="img-circle col-3" src="image/Desert.jpg">
+										<h4 id="userName" class="col-9">Pooja Shah</h4>
+							</div>
       </div>
     </div>
   </div>

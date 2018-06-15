@@ -71,8 +71,9 @@ hr.style1{
 
 .verticalbar {
     border-left: 1px solid green;
-    height: 120%;
-    margin-left: 20vmax;
+    height: 100%;
+    /* margin-left: 20vmax; */
+    align-self: center;
     top: 0;
     position: absolute;
 }
